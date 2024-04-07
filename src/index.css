@@ -1,13 +1,53 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Nanum+Gothic&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Nanum+Gothic&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg{
+    background-color: #d1d4f1eb;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.beforeStyle{
+    @apply before:content-[""] before:opacity-0 before:right-[-100px] before:left-[-100px] hover:before:top-0 before:transition-all before:duration-300 before:ease-linear before:h-[0px]  before:top-0 before:bg-purpel1 before:fixed before:-z-10
 }
+.beforH{
+    @apply sm:before:h-[65px] before:h-[65px] before:opacity-[1]
+}
+
+.link:hover {
+    color: rgb(136, 136, 136);
+    transition: 0.25s;
+}
+
+.link2:hover {
+    color: black;
+    transition: 0.25s;
+}
+.bgGredient{
+    background: linear-gradient(270deg, rgba(220,224,247,1) 24%, rgba(186,183,237,1) 53%, rgba(220,224,247,1) 100%);
+}
+.bgGredient2{
+    background: linear-gradient(270deg, rgba(107,83,220,1) 0%, rgba(171,73,242,1) 100%);
+}
+
+.bgGredient3{
+    background: linear-gradient(56deg, rgba(81,87,207,1) 0%, rgba(203,87,188,1) 50%, rgba(248,188,123,1) 100%);
+}
+
+.btn{
+    color: white;
+    background: black;
+}
+
+.btn:hover {
+    background: linear-gradient(270deg, rgba(107,83,220,1) 0%, rgba(171,73,242,1) 100%);
+    transition: 0.3s;
+}
+
+
+.btn2:hover{
+    background: linear-gradient(270deg, rgba(107,83,220,1) 0%, rgba(171,73,242,1) 100%);
+
+}
+
