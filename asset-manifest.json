@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/StartUp-Website-React-Tailwind/static/css/main.db29750f.css",
+    "main.js": "/StartUp-Website-React-Tailwind/static/js/main.48bdf022.js",
+    "static/js/453.0c9e39a5.chunk.js": "/StartUp-Website-React-Tailwind/static/js/453.0c9e39a5.chunk.js",
+    "static/media/woman1-2.png": "/StartUp-Website-React-Tailwind/static/media/woman1-2.8a1b0ba6eeafa7101d61.png",
+    "static/media/woman1.png": "/StartUp-Website-React-Tailwind/static/media/woman1.79e5538140a18b4ab017.png",
+    "static/media/woman2.png": "/StartUp-Website-React-Tailwind/static/media/woman2.7f797ab053ffffd6bc4b.png",
+    "static/media/woman3.png": "/StartUp-Website-React-Tailwind/static/media/woman3.6dc823df3ed0af491ae8.png",
+    "static/media/team1.jpg": "/StartUp-Website-React-Tailwind/static/media/team1.304e0f052da42fe86615.jpg",
+    "static/media/team3.jpg": "/StartUp-Website-React-Tailwind/static/media/team3.d2b2a10fd688297ffcb8.jpg",
+    "static/media/team2.jpg": "/StartUp-Website-React-Tailwind/static/media/team2.8b6809461e9c12871e1b.jpg",
+    "index.html": "/StartUp-Website-React-Tailwind/index.html",
+    "main.db29750f.css.map": "/StartUp-Website-React-Tailwind/static/css/main.db29750f.css.map",
+    "main.48bdf022.js.map": "/StartUp-Website-React-Tailwind/static/js/main.48bdf022.js.map",
+    "453.0c9e39a5.chunk.js.map": "/StartUp-Website-React-Tailwind/static/js/453.0c9e39a5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.db29750f.css",
+    "static/js/main.48bdf022.js"
+  ]
+}
